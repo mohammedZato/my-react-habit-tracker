@@ -29,13 +29,13 @@ export default function AddHabit() {
     }
     return (
         <div class="pt-12 mx-6">
-            <h1 class="mb-3 text-center font-medium">Habit Tracker</h1>
+            <h1 class="mb-3 text-black text-center font-medium">Habit Tracker</h1>
             <form onSubmit={handleHabitSubmit}>
                 <input 
                     type="text" 
                     placeholder="Enter Habit Name"
                     id="habitName"
-                    class="border px-3 w-[22rem] sm:w-[35rem] py-3 text-base focus:border-blue-400 outline-none rounded"
+                    class="border bg-gray-50 px-3 w-[22rem] sm:w-[35rem] py-3 text-base focus:border-blue-400 outline-none rounded"
                     name="habitName"
                     value={habitForm.habitName}
                     onChange={handleChange}
@@ -45,7 +45,7 @@ export default function AddHabit() {
                     <select 
                         name="frequency" 
                         id="frequency"
-                        class="border px-3 py-3 text-base outline-none focus:border-blue-400 rounded"
+                        class="border bg-gray-50 px-3 py-3 text-base outline-none focus:border-blue-400 rounded"
                         value={habitForm.frequency}
                         onChange={handleChange}
                         > 
