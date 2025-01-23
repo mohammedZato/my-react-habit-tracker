@@ -28,7 +28,7 @@ export default function AddHabit() {
         }));
     }
     return (
-        <div class="mt-12 mx-6">
+        <div class="pt-12 mx-6">
             <h1 class="mb-3 text-center font-medium">Habit Tracker</h1>
             <form onSubmit={handleHabitSubmit}>
                 <input 
@@ -55,7 +55,7 @@ export default function AddHabit() {
                     </select>
                 </div>
                 <div>
-                    <button class="w-full mt-4 bg-blue-400 font-bold">Add Habit</button>
+                    <button class="w-full mt-4 bg-blue-400 text-black font-bold">Add Habit</button>
                 </div>
             </form>
         </div>

@@ -4,7 +4,7 @@ import HabitList from "./components/HabitList";
 
 function App() {
   return (
-    <main>
+    <main class="bg-gray-50">
       <AddHabit />
       <HabitList />
     </main>
